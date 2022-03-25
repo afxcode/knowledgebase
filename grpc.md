@@ -18,7 +18,7 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 Download ```protoc-gen-grpc-web``` plugin from https://github.com/grpc/grpc-web/releases and save in your bin folder, make sure its accessible and executable.
 
 ### Typescript
-Install ```add protoc-gen-ts``` plugin via node package manager e.g yarn.
+Install ```protoc-gen-ts``` plugin via node package manager e.g yarn.
 ```bash
 yarn global add protoc-gen-ts
 ```
