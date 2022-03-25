@@ -43,9 +43,4 @@ compile:
 	protoc -I . *.proto --js_out=import_style=commonjs,binary:web --grpc-web_out=import_style=commonjs,mode=grpcwebtext:web
 	protoc -I . *.proto --ts_out=import_style=commonjs,binary:ts
   ```
-
-## Required binary
-├── protoc
-├── protoc-gen-go
-├── protoc-gen-go-grpc
-└── protoc-gen-grpc-web
+  
