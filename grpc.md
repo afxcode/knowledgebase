@@ -22,6 +22,7 @@ Install  plugin via node package manager e.g yarn.
 ```bash
 yarn global add protoc-gen-ts
 ```
+
 ## Compile Protobuf
 Place ```*.proto``` file in the same directory as the ```Makefile```. Then run ```make```.
 Makefile samples:
@@ -42,3 +43,9 @@ compile:
 	protoc -I . *.proto --js_out=import_style=commonjs,binary:web --grpc-web_out=import_style=commonjs,mode=grpcwebtext:web
 	protoc -I . *.proto --ts_out=import_style=commonjs,binary:ts
   ```
+
+## Required binary
+├── protoc
+├── protoc-gen-go
+├── protoc-gen-go-grpc
+└── protoc-gen-grpc-web
